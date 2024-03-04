@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basit's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Popup window -->
+    <section class="popup" id="popup">
+
+    </section>
+    <!-- Header section -->
+    <header>
+      <div class="brand"><a href="" class="color1">Basit Khan</a></div>
+      <div class="menu">
+        <ul class="menu_list">
+          <li>
+            <a href="#portfolio" class="color1">About</a
+            ><i class="fa-solid fa-chevron-right"></i>
+          </li>
+          <li>
+            <a href="#about" class="color1">Portfolio</a
+            ><i class="fa-solid fa-chevron-right"></i>
+          </li>
+          <li>
+            <a href="#contact" class="color1">Conatct</a
+            ><i class="fa-solid fa-chevron-right"></i>
+          </li>
+          <li class="message">
+            <a href="mailto:chrissiku5@gmail.com" class="color1"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+        <a class="menu-icon"><i class="fa-solid fa-bars" id="menu"></i></a>
+      </div>
+    </header>
+
+    <!-- Home section -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-head text-center">
+        <h1 class="color2">Basit Khan</h1>
+        <h2>Software Developer</h2>
+      </div>
+
+      <div class="portfolio-infos">
+        <p class="text-center">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+        <div class="line"></div>
+        <div class="techo">
+          <div id="language">
+            <h3>Languages</h3>
+            <ul>
+              <li>Javascript</li>
+              <li>Html</li>
+              <li>Css</li>
+            </ul>
+          </div>
+          <!-- Frameworks part -->
+          <div id="framework">
+            <h3>Frameworks</h3>
+            <ul>
+              <li>Bootstrap</li>
+              <li>React JS</li>
+              <li>Next JS</li>
+            </ul>
+          </div>
+          <!-- skills part -->
+          <div>
+            <h3>Skills</h3>
+            <ul>
+              <li>Github</li>
+              <li>Gitlab</li>
+            </ul>
+          </div>
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="portfolio-link">
+        <div class="work work-one">
+          <div><span> Work</span><i class="fa-solid fa-arrow-down"></i></div>
+        </div>
+        <ul class="social">
+          <li>
+            <a
+              href="https://github.com/AbdulBasit-Khan
+            "
+              ><i class="fa-brands fa-github-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/abdul-basit-khan-787719232/
+            "
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+       
+        </ul>
+        <div class="work work-two">
+          <div><i class="fa-solid fa-arrow-down"></i><span> Work</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main section -->
+    <section class="about" id="about">
+      <h2 class="color2">My recent work</h2>
+      <div class="line"></div>
+
+      <div class="about_content" id="about_content">
+        <!-- Work content here-->
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h3 class="color2 title contact-title1">Let’s chat!</h3>
+      <h3 class="color2 title contact-title2">CONTACT US</h3>
+      <div class="contact-text">
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+      </div>
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xayvleal" method="post" id="user_form">
+          <label for="user_name"></label>
+          <input
+            type="text"
+            name="user_name"
+            id="user_name"
+            maxlength="30"
+            minlength="1"
+            required
+            placeholder="Enter your name"
+          />
+          <label for="email"></label>
+          <input
+            type="email"
+            required
+            name="email"
+            id="email"
+            placeholder="Enter your Email"
+            value="kbasit672@gmail.com"
+          />
+          <label for="msg"></label>
+          <textarea
+            name="msg"
+            id="msg"
+            cols="20"
+            rows="5"
+            maxlength="500"
+            minlength="5"
+            required
+            placeholder="Enter text here"
+          ></textarea>
+          <small class="alert"></small>
+          <button type="submit" class="btn" id="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <div class="foot-line"></div>
+      <div class="footer-content">
+        <ul class="social">
+          <li>
+            <a href="https://github.com/AbdulBasit-Khan"
+              ><i class="fa-brands fa-github-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/abdul-basit-khan-787719232/"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          
+        </ul>
+        <p><a href="mailto:kbasit672@gmail.com">kbasit672@gmail.com</a></p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
